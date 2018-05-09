@@ -11,7 +11,8 @@ def consolidate_cart(cart)
         items[food] = description_arr[1]
       end
     end
-    item
+    items
+    binding.pry
   end
 
 
