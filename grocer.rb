@@ -12,6 +12,7 @@ def consolidate_cart(cart)
         items[key] = value
         hash[key][count] = 1
       end
+      end
     end
   end
 
