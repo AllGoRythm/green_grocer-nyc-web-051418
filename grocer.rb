@@ -6,7 +6,7 @@ def consolidate_cart(cart)
 
   cart.each do |description_hash|
     description_hash.each do |key, value|
-
+      binding.pry
     end
   end
 
