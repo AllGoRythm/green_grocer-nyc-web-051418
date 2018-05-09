@@ -5,13 +5,8 @@ def consolidate_cart(cart)
   items = {}
 
   cart.each do |description_hash|
-    description_hash.each do |description_arr|
-      description_arr.each_with_index do |food, index|
-        items[food] = {}
-        items[food] = description_arr[1]
-        items[food][description_arr[1]][:count]
-        binding.pry
-      end
+    description_hash.each do |key, value|
+
     end
   end
 
