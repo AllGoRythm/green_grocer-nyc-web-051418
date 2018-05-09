@@ -6,8 +6,8 @@ def consolidate_cart(cart)
 
   cart.each do |description_hash|
     description_hash.each do |key, value|
-      if items[key] = value
-
+      if items[key]
+        items[key][:count] += 1
       else
 
       end
