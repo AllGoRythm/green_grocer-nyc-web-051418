@@ -9,10 +9,9 @@ def consolidate_cart(cart)
       description_arr.each do |food|
         items[food] ||= {}
         items[food] = description_arr[1]
+        binding.pry
       end
     end
-    items
-    binding.pry
   end
 
 
