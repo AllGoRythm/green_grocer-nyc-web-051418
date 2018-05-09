@@ -14,7 +14,6 @@ def consolidate_cart(cart)
       end
     end
     items
-  end
 # {
 #   "AVOCADO" => {:price => 3.0, :clearance => true, :count => 2},
 #   "KALE"    => {:price => 3.0, :clearance => false, :count => 1}
