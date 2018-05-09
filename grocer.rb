@@ -9,7 +9,8 @@ def consolidate_cart(cart)
       if items[key]
         items[key][:count] += 1
       else
-
+        items[key] = value
+        hash[key][count] = 1
       end
     end
   end
