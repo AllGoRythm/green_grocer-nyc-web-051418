@@ -61,8 +61,10 @@ def checkout(cart, coupons)
   total = apply_clearance(first_cart)
   cost = 0
   total.each {|x, y| cost += (y[:price] * y[:count])}
+
     if cost > 100
       cost = cost*0.9
     end
+    
   cost
 end
