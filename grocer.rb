@@ -7,12 +7,8 @@ def consolidate_cart(cart)
   cart.each do |description_hash|
     description_hash.each do |description_arr|
       description_arr.each do |food, level_three|
-
-        food.each do |k|
-          binding.pry
-        end
-        # items[food] = {}
-        # binding.pry
+        items[food] = {}
+        binding.pry
       end
     end
   end
