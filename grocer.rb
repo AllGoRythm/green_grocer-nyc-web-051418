@@ -57,7 +57,7 @@ end
 
 def checkout(cart, coupons)
   first_cart =  consolidate_cart(cart)
-  coup_cart = apply_coupons(first_cart, coupons)
+  second_cart = apply_coupons(first_cart, coupons)
   total = apply_clearance(first_cart)
   cost = 0
   total.each {|x, y| cost += (y[:price] * y[:count])}
