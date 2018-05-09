@@ -8,7 +8,7 @@ def consolidate_cart(cart)
     description_hash.each do |description_arr|
       description_arr.each do |food|
         items[food] ||= {}
-        items[food] ||= description_arr[1]
+        items[food] = description_arr[1]
       end
     end
     items
